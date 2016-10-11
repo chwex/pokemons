@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,42 +26,54 @@
 </head>
 
 <body>
-
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Tipos
-                    </a>
-                </li>
-                @foreach($tipos as $t)
-                    <li>
-                        <a href="#">
-                            {{$t->identifier}}
-                        </a>
-                    </li>
-                @endforeach
-            </ul>
+<section class="container-fluid">
+    <div class="row">
+        <div class="panel-heading">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <a data-toggle="collapse" href="#collapse1">Pokemons</a>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
         </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>Mostrar Pokemons</p>
+    </div>    
+</section>
+<section class="container-fluid">
+    <div class="row">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div id="wrapper">
+        <!-- Sidebar -->
+                            <div id="sidebar-wrapper">
+                                <ul class="sidebar-nav">
+                                <li class="sidebar-brand">
+                                    <a href="#">
+                                    Tipos
+                                    </a>
+                                </li>
+                                @foreach($tipos as $t)
+                                <li>
+                                    <a href="#">
+                                {{$t->identifier}}
+                                    </a>
+                                </li>
+                                @endforeach
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>    
+</section>
+    
         <!-- /#page-content-wrapper -->
 
-    </div>
+
     <!-- /#wrapper -->
 
     <!-- jQuery -->
