@@ -26,28 +26,14 @@
 </head>
 
 <body>
+
 <section class="container-fluid">
     <div class="row">
-        <div class="panel-heading">
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <a data-toggle="collapse" href="#collapse1">Pokemons</a>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-        </div>
-    </div>    
-</section>
-<section class="container-fluid">
-    <div class="row">
-        <div class="panel-group">
+        <div class="panel-group "> 
             <div class="panel panel-default">
-                <div id="collapse1" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <div id="wrapper">
+                <div id="wrapper">
         <!-- Sidebar -->
-                            <div id="sidebar-wrapper">
+                    <div id="sidebar-wrapper">
                                 <ul class="sidebar-nav">
                                 <li class="sidebar-brand">
                                     <a href="#">
@@ -58,12 +44,10 @@
                                 <li>
                                     <a href="#">
                                 {{$t->identifier}}
-                                    </a>
-                                </li>
-                                @endforeach
-                                </ul>
-                            </div>
-                        </div>
+                                </a>
+                            </li>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
             </div>

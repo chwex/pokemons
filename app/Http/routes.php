@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'masterController@index');
+Route::get('/principal','principalController@vista');
+Route::get('/master','principalController@mostrar');
