@@ -54,11 +54,14 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            //'host' => env('DB_HOST', 'localhost'), //localhost
+            'host' => env('DB_HOST', 'z37udk8g6jiaqcbx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'), //heroku
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'pokemons'),
+            //'username' => env('DB_USERNAME', 'forge'), //localhost
+            'username' => env('DB_USERNAME', 'tiq4dzaba2z0ygce'), //heroku
+            //'password' => env('DB_PASSWORD', ''), //localhost
+            'password' => env('DB_PASSWORD', 'gp8snalnhmqfitc0 '), //heroku
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
