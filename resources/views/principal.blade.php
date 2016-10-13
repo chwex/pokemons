@@ -23,7 +23,7 @@
   			<div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
   				<div class="navbar-header">
-  					<img src="English_Pok.png" alt="pokemon icon">
+  					<a href="{{url('/master')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
 <!--<a class="navbar-brand" href="{{url('/master')}}">Pokemons</a>-->
   				</div>
     			<form class="navbar-form navbar-right">
@@ -36,35 +36,45 @@
 		</nav>
 	</div>
 </section>
-<div>
-		@yield('encabezado')
-</div>
-  <section>
-  <div class="col-sm-3">
-  <h3>Vertical Pills</h3>
-  <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-  </ul> 
+<section class="container-fluid">
+  <div class="container">
+  <div class="row">
+    
+        <ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Pokedex</a></li>
+  <li><a href="#">Tipos</a></li>
+  <li><a href="#">Generaciones</a></li>
+  <li><a href="#">Fuerza</a></li>
+</ul>
+        
+  </div>
 </div>
 </section>
+
+<div class="container-fluid">
+	<div class="row">
+		@yield('encabezado')
+		@yield('contenido')
+	</div>
+</div>
+
 	<div class="container-fluid">
 		
 		<div class="panel-body text-center" >Chwexesclan con barba &copy; 2016</div>
 			
 	</div>
 
-<!--<script language="JavaScript">
+<!--Script con metodo random para cambiar el backgroud-->
+<script language="JavaScript">
 /*Random Background Image-
 By Website Abstraction (www.wsabstract.com)
 More free JavaScripts here!
 */
 
 var backgr1="wallpaper.jpg"
-var backgr2="wallpaper1.jpg"
-var backgr3="pokeball.jpg"
+var backgr2="p3.jpg"
+var backgr3="p5.jpg"
 
 var cur=Math.round(6*Math.random())
 if (cur<=1)
@@ -74,7 +84,7 @@ backgr=backgr2
 else
 backgr=backgr3
 document.write('<body background="'+backgr+'" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">')
-</script>-->
+</script>
 
 </body>
 </html>

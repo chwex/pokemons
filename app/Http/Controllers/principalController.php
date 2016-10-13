@@ -11,7 +11,11 @@ class principalController extends Controller
         public function vista(){
     	return view('principal');
     }
-    public function mostrar(){
+    public function master(){
     	return view('master');
+    }
+    public function index(){
+        $tipos=DB::table('tipos')->get();
+        return view('master', compact('tipos'));
     }
 }
