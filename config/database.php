@@ -62,7 +62,7 @@ return [
             //'username' => env('DB_USERNAME', 'forge'), //localhost
             'username' => env('DB_USERNAME', 'tiq4dzaba2z0ygce'), //heroku
             //'password' => env('DB_PASSWORD', ''), //localhost
-            'password' => env('DB_PASSWORD', 'gp8snalnhmqfitc0 '), //heroku
+            'password' => env('DB_PASSWORD', 'gp8snalnhmqfitc0'), //heroku
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
