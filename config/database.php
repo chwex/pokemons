@@ -57,7 +57,8 @@ return [
             //'host' => env('DB_HOST', 'localhost'), //localhost
             'host' => env('DB_HOST', 'z37udk8g6jiaqcbx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'), //heroku
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'pokemons'),
+            //'database' => env('DB_DATABASE', 'pokemons'), //localhost 
+            'database' => env('DB_DATABASE', 'h0ymrfyvxddg3zny'), //heroku
             //'username' => env('DB_USERNAME', 'forge'), //localhost
             'username' => env('DB_USERNAME', 'tiq4dzaba2z0ygce'), //heroku
             //'password' => env('DB_PASSWORD', ''), //localhost
