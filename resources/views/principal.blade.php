@@ -40,12 +40,12 @@
   <div class="container">
   <div class="row">
     
-        <ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Pokedex</a></li>
-  <li><a href="#">Tipos</a></li>
-  <li><a href="#">Generaciones</a></li>
-  <li><a href="#">Fuerza</a></li>
+        <ul class="ulu">
+  <li class="lis"><a class="as" href="#">Home</a></li>
+  <li class="lis"><a class="as" href="#">Pokedex</a></li>
+  <li class="lis"><a class="as" href="#">Tipos</a></li>
+  <li class="lis"><a class="as" href="#">Generaciones</a></li>
+  <li class="lis"><a class="as" href="#">Fuerza</a></li>
 </ul>
         
   </div>
