@@ -11,6 +11,11 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/tipos', 'masterController@index');
 Route::get('/','principalController@vista');
 Route::get('/',array('as' => 'principal','uses'=> 'principalController@getIndex'));
+=======
+//Route::get('/', 'masterController@index');
+Route::get('/','principalController@vista');
+>>>>>>> f79773c9afb3196986108cae769be738966f6d95
