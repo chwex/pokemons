@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'masterController@index');
-Route::get('/principal','principalController@vista');
-Route::get('/master','principalController@master');
+Route::get('/tipos', 'masterController@index');
+Route::get('/','principalController@vista');
+Route::get('/',array('as' => 'principal','uses'=> 'principalController@getIndex'));

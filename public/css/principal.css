@@ -1,5 +1,5 @@
 body {
-	
+	box-sizing: border-box;
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
@@ -11,9 +11,24 @@ body {
 	opacity: 0.75;
 
 }
+.fullcontainer{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ADD8E6;
+  border: 1px solid #77A1C1;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  top: 50px;
+  left: 85px;
+}
 
 
 .navbar {
+  box-sizing: border-box;
 	background-color: #F8F9F9;
 	opacity: .90;
 	padding: 0px;
@@ -38,11 +53,11 @@ img{
   	background-position:center;
 }
 
-ul {
+.ulu {
    position: absolute;
 }
 
- ul li {
+ .ulu .lis {
    height: 50px;
    background: green;
    display: block;
@@ -63,12 +78,12 @@ ul {
    opacity: 0;
 }
 
-ul li:hover {
+.ulu .lis:hover {
    cursor: pointer;
   }
   
   
-ul li:before {
+.ulu .lis:before {
     display: block;
     height: 50px;
     width: 50px;
@@ -86,7 +101,7 @@ ul li:before {
   }
     
   
-  li a {
+  .lis .as {
      color: #fff;
      display: block;
      height: 50px;
@@ -107,27 +122,27 @@ ul li:before {
      text-shadow: rgba(0,0,0,0.3) 1px 1px;
 }
 
-  ul li:nth-child(1) a {
+  .ulu .lis:nth-child(1) .as {
     background: #888888;
   }
 
-  ul li:nth-child(2) a {
+  .ulu .lis:nth-child(2) .as {
     background: #628179;
   }
 
-  ul li:nth-child(3) a {
+  .ulu .lis:nth-child(3) .as {
     background: #21aabd;
   }
 
-  ul li:nth-child(4) a {
+  .ulu .lis:nth-child(4) .as {
     background: #654b6b;
   }
 
-  ul li:nth-child(5) a {
+  .ulu .lis:nth-child(5) .as {
     background: #bd2a4e;
   }
 
- li a:hover {
+ .lis .as:hover {
    opacity: 1.0;
    padding-right: 3.0em;
   -webkit-transition: all 0.1s ease-in-out;
@@ -136,28 +151,28 @@ ul li:before {
   transition: all 0.1s ease-in-out;
 }
 
-ul li:nth-child(2) {
+.ulu .lis:nth-child(2) {
    -webkit-animation-delay: 0.4s;
    -moz-animation-delay: 0.4s;
    -ms-animation-delay: 0.4s;
    animation-delay: 0.4s;
 }
 
-ul li:nth-child(3) {
+.ulu .lis:nth-child(3) {
    -webkit-animation-delay: 0.8s; 
    -moz-animation-delay: 0.8s;
    -ms-animation-delay: 0.8s;
    animation-delay: 0.8s;
 }
 
-ul li:nth-child(4) {
+.ulu .lis:nth-child(4) {
    -webkit-animation-delay: 1.2s;
    -moz-animation-delay: 1.2s; 
    -ms-animation-delay: 1.2s; 
    animation-delay: 1.2s; 
 }
 
-ul li:nth-child(5) {
+.ulu .lis:nth-child(5) {
    -webkit-animation-delay: 1.6s;
    -moz-animation-delay: 1.6s;
    -ms-animation-delay: 1.6s;
