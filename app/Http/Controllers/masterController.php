@@ -8,8 +8,11 @@ use DB;
 
 class masterController extends Controller
 {
-        public function index(){
-        $tipos=DB::table('tipos')->get();
-        return view('master', compact('tipos'));
+        
+     public function index($id){
+        $tipos=tipos::table('tipos')->first();
+        return view('tipos', compact('tipos'));
     }
+
+
 }

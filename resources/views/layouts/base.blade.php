@@ -22,7 +22,7 @@
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a href="{{url('/master')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
+            <a href="{{url('/tipos')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
 <!--<a class="navbar-brand" href="{{url('/master')}}">Pokemons</a>-->
           </div>
           <form class="navbar-form navbar-right">
@@ -36,10 +36,10 @@
     </div>
 
     <!--Menu desplegable lateral -->
-    @yield('menu')
-
+   @yield('menu')
     <!--Contenido-->
     <div class="fullcontainer">
+         
       @yield('content') 
     </div>
     <!--<div class="panel-body text-center" style="color: black;">Chwexesclan con barba &copy; 2016</div>-->
