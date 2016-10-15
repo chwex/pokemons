@@ -37,11 +37,11 @@
         <div class="container">
           <div class="row">
             <ul class="ulu">
-              <li class="lis"><a class="as" href="#">Home</a></li>
-              <li class="lis"><a class="as" href="#">Pokedex</a></li>
-              <li class="lis"><a class="as" href="{{url('/tipos')}}">Tipos</a></li>
-              <li class="lis"><a class="as" href="#">Generaciones</a></li>
-              <li class="lis"><a class="as" href="#">Fuerza</a></li>
+              <li class="lis"><a class="as" href="{{url('/principal')}}">Home</a></li>
+              <li class="lis"><a class="as" href="{{url('/pokemonInfo')}}">Pokedex</a></li>
+              <li class="lis"><a class="as" href="{{url('/tipoPokemon')}}">Generaciones</a></li>
+              <li class="lis"><a class="as" href="{{url('/pokemon')}}">Fuerza</a></li>
+              <li class="lis"><a class="as" href="#">Tipos</a></li>
             </ul>  
           </div>
         </div>
