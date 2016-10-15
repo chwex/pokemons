@@ -1,8 +1,4 @@
 @extends('layouts.base')
-<!-- Bootstrap Core JavaScript -->
-
-<!-- Latest compiled and minified CSS -->
-
 
 @section('content')
 

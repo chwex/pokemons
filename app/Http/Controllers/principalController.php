@@ -11,11 +11,5 @@ class principalController extends Controller
         public function getIndex(){
     	return view('principal');
     }
-    public function master(){
-    	return view('master');
-    }
-    public function index(){
-        $tipos=DB::table('tipos')->get();
-        return view('master', compact('tipos'));
-    }
+
 }
