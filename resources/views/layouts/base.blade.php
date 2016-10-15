@@ -41,7 +41,7 @@
               <li class="lis"><a class="as" href="{{url('/pokemonInfo')}}">Pokedex</a></li>
               <li class="lis"><a class="as" href="{{url('/tipoPokemon')}}">Generaciones</a></li>
               <li class="lis"><a class="as" href="{{url('/pokemon')}}">Fuerza</a></li>
-              <li class="lis"><a class="as" href="#">Tipos</a></li>
+              <li class="lis"><a class="as" href="{{url('/tiposinicio')}}">Tipos</a></li>
             </ul>  
           </div>
         </div>
