@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- JQuery Core JavaScript -->
-<script src="lib/js/jquery.min.js"></script>
+@extends('layouts.base')
 
 <!-- Bootstrap Core JavaScript -->
 <script src="lib/js/bootstrap.min.js"></script>
@@ -38,53 +29,21 @@
 </section>
 <section class="container-fluid">
   <div class="container">
-  <div class="row">
-    
-        <ul class="ulu">
-  <li class="lis"><a class="as" href="#">Home</a></li>
-  <li class="lis"><a class="as" href="#">Pokedex</a></li>
-  <li class="lis"><a class="as" href="#">Tipos</a></li>
-  <li class="lis"><a class="as" href="#">Generaciones</a></li>
-  <li class="lis"><a class="as" href="#">Fuerza</a></li>
-</ul>
-        
-  </div>
-</div>
-</section>
 
-<div class="container-fluid">
-	<div class="row">
-		@yield('encabezado')
-		@yield('contenido')
-	</div>
-</div>
+    <div class="row">
+      <ul class="ulu">
+        <li class="lis"><a class="as" href="#">Home</a></li>
+        <li class="lis"><a class="as" href="#">Pokedex</a></li>
+        <li class="lis"><a class="as" href="{{url('/tipos')}}">Tipos</a></li>
+        <li class="lis"><a class="as" href="#">Generaciones</a></li>
+        <li class="lis"><a class="as" href="#">Fuerza</a></li>
+      </ul>  
+    </div>
+@stop
 
-	<div class="container-fluid">
-		
-		<div class="panel-body text-center" >Chwexesclan con barba &copy; 2016</div>
-			
-	</div>
+@section('content')
 
-<!--Script con metodo random para cambiar el backgroud-->
-<script language="JavaScript">
-/*Random Background Image-
-By Website Abstraction (www.wsabstract.com)
-More free JavaScripts here!
-*/
+<p><center>AQUI SE PONDRA TODO EL CONTENIDO MA FRENDS</center></p>
 
-var backgr1="wallpaper.jpg"
-var backgr2="p3.jpg"
-var backgr3="p5.jpg"
+@stop
 
-var cur=Math.round(6*Math.random())
-if (cur<=1)
-backgr=backgr1
-else if (cur<=4)
-backgr=backgr2
-else
-backgr=backgr3
-document.write('<body background="'+backgr+'" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">')
-</script>
-
-</body>
-</html>

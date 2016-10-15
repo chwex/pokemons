@@ -8,7 +8,7 @@ use App\Http\Requests;
 
 class principalController extends Controller
 {
-        public function vista(){
+        public function getIndex(){
     	return view('principal');
     }
     public function master(){
