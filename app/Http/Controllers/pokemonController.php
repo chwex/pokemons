@@ -9,6 +9,6 @@ use App\Http\Requests;
 class pokemonController extends Controller
 {
     public function consultar($id){
-
+    	
     }
 }

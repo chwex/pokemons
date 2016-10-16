@@ -2,7 +2,7 @@
 
 @section('content')
 
-<p><center>AQUI SE PONDRA TODO EL CONTENIDO MA FRENDS</center></p>
 
+<p><center>AQUI SE PONDRA TODO EL CONTENIDO MA FRENDS</center></p>
 
 @stop
