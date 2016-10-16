@@ -52,6 +52,7 @@ return [
             'prefix' => '',
         ],
 
+        //configuracion local
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'), //localhost
