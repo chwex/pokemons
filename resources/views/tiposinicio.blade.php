@@ -1,26 +1,21 @@
 @extends('layouts.base')
 
-@section('content')
+<link rel="stylesheet" type="text/css" href="{{asset("css/tipos.css")}}">
 
-<table class="table table-hover">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Tipos</th>
-                <th>Generacion</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach($tipos as $t)
-                <tr>
-                    <td>{{$t->id}}</td>
-                    <td>{{$t->identifier}}</td>
-                    <td>{{$t->generation}}</td>
-                </tr>
-            @endforeach
-        </tbody>
-    </table>
-   @stop
+@section('content')
+    <div class="row">
+        <div class="col-md-2">
+            <div class="list-group lstTipos">
+                @foreach($tipos as $t)
+                    <a href="{{url('/tipos')}}/{{$t->id}}" class="list-group-item">{{$t->identifier}}</a>
+                @endforeach
+            </div>
+        </div>
+        <div class="col-md-10">
+            <h1 class="text-center">Selecciona un Tipo!</h1>
+        </div>
+    </div>
+@stop
 
 
 
