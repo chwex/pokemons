@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 use App\tipos;
 use DB;
 use App\Http\Requests;
-use DB;
 
 class tiposController extends Controller
 {
@@ -19,6 +18,6 @@ class tiposController extends Controller
 
     public function consultar($id)
     {
-
+        
     }
 }
