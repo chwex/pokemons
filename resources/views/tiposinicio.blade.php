@@ -1,51 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.base')
 
-<head>
+<link rel="stylesheet" type="text/css" href="{{asset("css/tipos.css")}}">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Pokemons Digital Mosnters</title>
-
-    <!-- Bootstrap Core CSS -->
-
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-</head>
-
-<body>
-
-<section class="container-fluid">
+@section('content')
     <div class="row">
-        <div class="panel-group "> 
-            <div class="panel panel-default">
-                <div id="wrapper">
-        <!-- Sidebar -->
-                    <div id="sidebar-wrapper">
-                                <ul class="sidebar-nav">
-                                <li class="sidebar-brand">
-                                    <a href="#">
-                                    Tipos
-                                    </a>
-                                </li>
-                                @foreach($tipos as $t)
-                                <li>
-                                    <a href="#">
-                                {{$t->identifier}}
-                                </a>
-                            </li>
-                            @endforeach
-                        </ul>
-                    </div>
-                </div>
+        <div class="col-md-2">
+            <div class="list-group lstTipos">
+                @foreach($tipos as $t)
+                    <a href="{{url('/tipos')}}/{{$t->id}}" class="list-group-item">{{$t->identifier}}</a>
+                @endforeach
             </div>
         </div>
-    </div>    
-</section>
+        <div class="col-md-10">
+            <h1 class="text-center">Selecciona un Tipo!</h1>
+        </div>
+    </div>
+@stop
 
-</body>
 
-</html>
+
+

@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class tipos extends Model
 {
     protected $table = 'tipos';
+    public $timestamps = false;
 }
