@@ -27,6 +27,17 @@ body {
   height:100%;
 }
 
+.imag{
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+}
+.imags{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 238px;
+}
 
 .navbar {
   box-sizing: border-box;
@@ -88,11 +99,13 @@ img{
     display: block;
     height: 50px;
     width: 50px;
-    content: '>';
+    left: 8px;
+    top: 8px;
+    content: url("../ps.png");
     font-size: 2em;
     position: relative;
     right: 0;
-    top: 0;
+    top: 10px;
     border-right: rgba(255,255,255,0.2) 1px solid;
     text-align: center;
     color: #fff;
@@ -207,3 +220,151 @@ img{
   50%  {opacity: 1;}
   100% {opacity: 1;}
 }
+
+/*modal 1*/
+ .main-container{
+       
+background: #d53369; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #770802 , #af211a); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #770802 , #af211a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+.highlight  {
+    width: 600px;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 3%;
+    
+  }
+    
+.highlight img {
+    
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+    }
+    
+.highlight ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+    
+.highlight button {
+   margin-left: 1%;
+    float: right;
+    }
+
+.highlight h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 2%;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+    text-transform: uppercase;
+    }
+    
+.highlight p {
+    text-align: justify;
+    }
+
+/*modal 2*/
+     .main-containerr{
+       
+background: #d53369; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2639e2 , #14ade5); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2639e2 , #14ade5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+.highlightt  {
+    width: 600px;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 3%;
+    
+  }
+    
+.highlightt img {
+    
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+    }
+    
+.highlightt ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+    
+.highlightt button {
+   margin-left: 1%;
+    float: right;
+    }
+
+.highlightt h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 2%;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+    text-transform: uppercase;
+    }
+    
+.highlightt p {
+    text-align: justify;
+    }
+
+    /*modal 3*/
+    /*modal 2*/
+     .main-containerrr{
+       
+background: #d53369; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f9e000 , #f7ea74); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f9e000 , #f7ea74); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+.highlighttt  {
+    width: 600px;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 3%;
+    
+  }
+    
+.highlighttt img {
+    
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+    }
+    
+.highlighttt ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+    
+.highlighttt button {
+   margin-left: 1%;
+    float: right;
+    }
+
+.highlighttt h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 2%;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+    text-transform: uppercase;
+    }
+    
+.highlighttt p {
+    text-align: justify;
+    }
