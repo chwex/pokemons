@@ -99,14 +99,13 @@ img{
     display: block;
     height: 50px;
     width: 50px;
-    left: 8px;
-    top: 8px;
+    left: 10px;
+    top: 0px;
     content: url("../ps.png");
     font-size: 2em;
     position: relative;
-    right: 0;
+    right: 5px;
     top: 10px;
-    border-right: rgba(255,255,255,0.2) 1px solid;
     text-align: center;
     color: #fff;
     text-shadow: rgba(0,0,0,0.2) 1px 1px 1px;
@@ -320,7 +319,6 @@ background: linear-gradient(to left, #2639e2 , #14ade5); /* W3C, IE 10+/ Edge, F
     }
 
     /*modal 3*/
-    /*modal 2*/
      .main-containerrr{
        
 background: #d53369; /* fallback for old browsers */

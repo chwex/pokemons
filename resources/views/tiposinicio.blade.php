@@ -11,10 +11,10 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-md-10">
-            <h1 class="text-center">Selecciona un Tipo!</h1>
-        </div>
-    </div>
+
+        <!--Seccion de muestra pokemon-->
+        <div class="col-md-10"></div>
+        
 @stop
 
 

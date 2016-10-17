@@ -15,10 +15,10 @@
     		<center><a data-toggle="modal" data-target="#exampleModal" data-whatever="@fat"><img class="imag" src="poketeam.png"></a></center>
     	</div>
     	<div class="item ">
-      		<center><a data-toggle="modal" data-target="#exampleModal2" data-whatever="@fat"><img class="imag" src="poketeam.png"></a></center>
+      		<center><a data-toggle="modal" data-target="#exampleModal2" data-whatever="@fat"><img class="imag" src="Profesor_Oak.png"></a></center> 
     	</div>
     	<div class="item ">
-      		<center><a data-toggle="modal" data-target="#exampleModal3" data-whatever="@fat"><img class="imag" src="poketeam.png"></a></center>
+      		<center><a data-toggle="modal" data-target="#exampleModal3" data-whatever="@fat"><img class="imag" src="punto.png"></a></center>
     	</div>
   	</div>
   <!-- Controls -->
@@ -84,31 +84,9 @@
 						<img class="imags" src="poketea.png">
 					</div>
 						<div class="row">
-					        <img src ="instinct.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Zapdos.</li>
-					            <li>Líder de gimnasio: Spark.</li>
-					            <li>Este equipo cree que el verdadero éxito proviene del instinto.</li> 
-					            <li>Y de confiar en las capacidades de tus Pokémon.</li>
-					        </ul>
-					  	</div>
-					  	<div class="row">
-					  		<img src ="mystic.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Articuno.</li>
-					            <li>Líder de gimnasio: Blanche.</li>
-					            <li>Este equipo cree que la serenidad, la sabiduría.</li> 
-					            <li>Y el intelecto son las llaves al verdadero poder Pokémon.</li>          
-					        </ul>
-					  	</div>
-					  	<div class="row">
-					  		<img src ="valor.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Moltres.</li>
-					            <li>Líder de gimnasio: Candela.</li>
-					            <li>Este equipo cree que la energía, la fuerza y la pasión.</li> 
-					            <li>Son las que nos llevarán hacia un mundo mejor.</li>
-					        </ul>
+					       <p>¿Qué es Pokémon GO?
+
+Desarrollado por Niantic, el estudio responsable de Ingress, Pokémon GO es un juego de realidad aumentada para dispositivos móviles que propone convertirnos en entrenadores Pokémon en el mundo real. Para ello habrá que activar la geolocalización (GPS) y la conectividad de datos en el móvil e interactuar con el mundo que nos rodea, visitando Gimnasios y Pokeparadas y cazando a ciento cincuenta Pokémon diferentes. La aplicación se encarga de seguir nuestros movimientos y nos irá avisando cuando estemos cerca de un Pokémon al que cazar.</p>
 					  	</div>
 				</div>
 			</div>
@@ -125,31 +103,11 @@
 						<img class="imags" src="poketea.png">
 					</div>
 						<div class="row">
-					        <img src ="instinct.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Zapdos.</li>
-					            <li>Líder de gimnasio: Spark.</li>
-					            <li>Este equipo cree que el verdadero éxito proviene del instinto.</li> 
-					            <li>Y de confiar en las capacidades de tus Pokémon.</li>
-					        </ul>
-					  	</div>
-					  	<div class="row">
-					  		<img src ="mystic.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Articuno.</li>
-					            <li>Líder de gimnasio: Blanche.</li>
-					            <li>Este equipo cree que la serenidad, la sabiduría.</li> 
-					            <li>Y el intelecto son las llaves al verdadero poder Pokémon.</li>          
-					        </ul>
-					  	</div>
-					  	<div class="row">
-					  		<img src ="valor.png" /> 
-					        <ul>
-					            <li>Pokémon legendarios: Moltres.</li>
-					            <li>Líder de gimnasio: Candela.</li>
-					            <li>Este equipo cree que la energía, la fuerza y la pasión.</li> 
-					            <li>Son las que nos llevarán hacia un mundo mejor.</li>
-					        </ul>
+					        <p>Cómo pedir nuevas poképaradas y gimnasios para Pokémon Go
+
+Si empiezas a estar cansada o cansado de salir a la calle y no encontrar ni una triste poképarada porque vives alejado de cualquier atisbo de sociedad, puedes contactar con la desarrolladora Niantic para que consideren convertir tu casa en una poképarada o un gimnasio.
+
+Por supuesto es probable que no lo hagan, al menos no únicamente para que puedas seguir echado en el sofá en pijama atrapando Pokémon, pero la posibilidad de lograrlo y de que decenas de personas no virtuales se acerquen a tu casa buscando pokéballs o nuevo territorio que conquistar está ahí.</p>
 					  	</div>
 				</div>
 			</div>

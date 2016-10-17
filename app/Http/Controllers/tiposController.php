@@ -18,6 +18,11 @@ class tiposController extends Controller
 
     public function consultar($id)
     {
+        $pokemon = DB::select("SELECT p.identifier, p.id
+        					   FROM pokemon p
+        					   INNER JOIN pokemon_tipo t ON t.id_pokemon = p.id
+        					   WHERE p.id = t.id_pokemon AND t.id_tipo = " . $id);
 
+        return view('tipoPokemon', compact('pokemon'));
     }
 }
