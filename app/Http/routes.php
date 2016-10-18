@@ -23,3 +23,8 @@ Route::get('/pokemon', 'pokemonController@consulta');
 
 Route::get('/pokemonInfo', 'tiposController@consultarr');
 Route::get('/pokeAqui','principalController@mostrarpoke');
+
+//rutas nuevas David
+route::get('/pokeAqui/{id}','tiposController@pokeAqui');
+route::get('/pdfPokemon/{id}','tiposController@pdfPokemon');
+route::get('/poderP/{id}','tiposController@poderP');
