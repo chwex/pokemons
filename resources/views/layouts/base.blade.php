@@ -19,7 +19,7 @@
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <a href="{{url('/master')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
+              <a href="{{url('/principal')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
             </div>
             <form class="navbar-form navbar-right">
               <div class="form-group">
@@ -38,8 +38,9 @@
           <div class="row">
             <ul class="ulu">
               <li class="lis"><a class="as" href="{{url('/principal')}}">Home</a></li>
-              <li class="lis"><a class="as" href="{{url('/pokemonInfo')}}">Pokemon</a></li>
-              <li class="lis"><a class="as" href="{{url('/pokemon')}}">Generaciones</a></li>
+              <li class="lis"><a class="as" href="{{url('/pokemonInfo')}}">Datos </a></li>
+              <li class="lis"><a class="as" href="{{url('/pokeAqui')}}">Aqui</a></li>
+              <li class="lis"><a class="as" href="{{url('/pokemon')}}">Pokemon</a></li>
               <li class="lis"><a class="as" href="{{url('/tiposinicio')}}">Tipos</a></li>
             </ul>  
           </div>

@@ -20,4 +20,13 @@ class pokemonController extends Controller
         $pokemon=pokemon::all();
         return view('tiposinicio', compact('pokemon'));
     }
+    
+    public function consulta(){
+        $pokemon=pokemon::all();
+        return view('pokemon', compact('pokemon'));
+    }
+     public function consultarr(){
+        $pokemon=pokemon::all();
+        return view('pokemonInfo', compact('pokemon'));
+    }
 }

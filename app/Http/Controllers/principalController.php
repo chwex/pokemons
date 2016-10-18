@@ -18,12 +18,14 @@ class principalController extends Controller
 		return view('tiposinicio');
 	}
 	public function mostrar(){
-		return view('tipoPokemon');
+		return view('tipoPok');
 	}
 	public function mostrarInfo(){
 		return view('pokemonInfo');
 	}
 	public function mostrarPokemon(){
 		return view('pokemon');
+	}public function mostrarpoke(){
+		return view('pokeAqui');
 	}
 }

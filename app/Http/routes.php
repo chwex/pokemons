@@ -15,7 +15,11 @@ Route::get('/',array('as' => 'principal','uses'=> 'principalController@getIndex'
 Route::get('/tipos/{id}', 'tiposController@consultar');
 Route::get('/pokemon/{id}', 'pokemonController@consultar');
 Route::get('/tiposinicio','tiposController@inicio');
-Route::get('/tipoPokemon', 'principalController@mostrar');
+Route::get('/tipoPok', 'principalController@mostrar');
 Route::get('/principal','principalController@mostrarPrincipal');
 Route::get('/pokemonInfo','principalController@mostrarInfo');
 Route::get('/pokemon','principalController@mostrarPokemon');
+Route::get('/pokemon', 'pokemonController@consulta');
+
+Route::get('/pokemonInfo', 'tiposController@consultarr');
+Route::get('/pokeAqui','principalController@mostrarpoke');
