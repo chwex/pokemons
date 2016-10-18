@@ -8,6 +8,8 @@ use App\Http\Requests;
 
 class principalController extends Controller
 {
+
+	
 	public function mostrarPrincipal(){
 		return view('principal');
 	}

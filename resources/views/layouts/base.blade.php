@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset("css/bootstrap.min.css")}}">
     <link rel="stylesheet" type="text/css" href="{{asset("css/principal.css")}}">
   </head>
-  <body background="{{asset('' . $backgr . '')}}" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+  <body background="{{asset('p3.jpg')}}" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
     <!--NavBar-->
     <section class="container-fluid">
       <div class="row">
