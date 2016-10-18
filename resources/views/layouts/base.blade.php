@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset("css/bootstrap.min.css")}}">
     <link rel="stylesheet" type="text/css" href="{{asset("css/principal.css")}}">
   </head>
-  <body>
+  <body background="{{asset('' . $backgr . '')}}" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
     <!--NavBar-->
     <section class="container-fluid">
       <div class="row">
@@ -19,7 +19,7 @@
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <a href="{{url('/master')}}"><img  src="English_Pok.png" alt="pokemon icon"></a>
+              <a href="{{url('/')}}"><img  src="{{asset("English_Pok.png")}}" alt="pokemon icon"></a>
             </div>
             <form class="navbar-form navbar-right">
               <div class="form-group">
@@ -54,29 +54,9 @@
 
 
     <!-- JQuery Core JavaScript -->
-    <script src="js/jquery.js"></script>
+    <script src="{{asset("js/jquery.js")}}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!--Script con metodo random para cambiar el backgroud-->
-    <script language="JavaScript">
-      //Se almacena en variables backgrN las imagenes.
-      var backgr1="wallpaper.jpg"
-      var backgr2="p3.jpg"
-      var backgr3="p5.jpg"
-
-      /*Se hace una variable "cur" 
-      que almacene el numero que arroja el 
-      random despues se hacen if y else
-      para colocar las imagenes*/
-      var cur=Math.round(6*Math.random())
-      if (cur<=1)
-      backgr=backgr1
-      else if (cur<=4)
-      backgr=backgr2
-      else
-      backgr=backgr3
-      //se escribe en un documeto para ponerse en el background
-      document.write('<body background="'+backgr+'" bgcolor="#ffe4c4" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">')
-    </script>
+    <script src="{{asset("js/bootstrap.min.js")}}"></script>
+    
   </body>
 </html>
