@@ -39,7 +39,7 @@
             <ul class="ulu">
               <li class="lis"><a class="as" href="{{url('/principal')}}">Home</a></li>
               <li class="lis"><a class="as" href="{{url('/pokemonInfo')}}">Pokemon</a></li>
-              <li class="lis"><a class="as" href="{{url('/tipoPokemon')}}">Generaciones</a></li>
+              <li class="lis"><a class="as" href="{{url('/pokemon')}}">Generaciones</a></li>
               <li class="lis"><a class="as" href="{{url('/tiposinicio')}}">Tipos</a></li>
             </ul>  
           </div>
